@@ -15,12 +15,32 @@ This repository provides detailed technical documentation for implementing state
 
 ```
 T2V-Paper2Slide/
-├── papers/                    # Paper overviews and analysis (Typst)
-│   └── 00_T2V_Paper_Overview.typ  # Comprehensive paper list
-├── references/                # Reference materials and notes
-├── implementations/           # From-scratch implementations
+├── papers/                           # Paper analyses (Typst)
+│   ├── 00_T2V_Paper_Overview.typ     # Comprehensive paper list
+│   └── 01_Video_Diffusion_Models/    # VDM detailed analysis
+│       ├── paper.pdf                 # Original paper
+│       ├── README.md                 # Quick overview
+│       ├── main.typ                  # Main Typst document
+│       └── chapters/                 # Detailed chapters
+│           ├── 01_introduction.typ
+│           ├── 02_background.typ
+│           ├── 03_architecture.typ   # 3D U-Net with diagrams
+│           ├── 04_training.typ
+│           ├── 05_sampling.typ       # Reconstruction guidance
+│           ├── 06_experiments.typ
+│           └── 07_implementation.typ # PyTorch code
+├── wiki/                             # GitHub Wiki pages
+│   ├── Home.md
+│   ├── 01-Video-Diffusion-Models.md
+│   └── Paper-List.md
+├── references/                       # Reference materials
+├── implementations/                  # From-scratch implementations
 └── README.md
 ```
+
+## Wiki
+
+📚 **[View the Wiki](wiki/Home.md)** for comprehensive documentation and guides.
 
 ## Papers Covered (Chronological)
 
